@@ -1,4 +1,4 @@
-FROM alpine:3.19
+FROM alpine:3.23.3
 RUN apk add --no-cache redis
 ENV REDIS_HOST redis
 COPY worker.sh /worker.sh
